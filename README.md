@@ -26,7 +26,9 @@ Serving the HTML pages.
 
 Testing the webserver
 
-## PROGRAM:<!DOCTYPE html>
+## PROGRAM:
+```
+<!DOCTYPE html>
 <html>
 <head>
 <title>Django</title>
@@ -47,9 +49,11 @@ Testing the webserver
 server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running....")
-httpd.serve_forever()     
-
+httpd.serve_forever() 
+```
 ## OUTPUT:
+![](server.png)  
+![](client.png)
 
 ## RESULT:
 The program is executed succesfully
